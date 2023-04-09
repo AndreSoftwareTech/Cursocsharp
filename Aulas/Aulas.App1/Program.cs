@@ -14,7 +14,6 @@ namespace Aulas.App1
             //tipos primitivos sting aspas duplas, char aspas simples
             char flag = 'a';
             string nome = "Andre";
-            flag = 'b';
 
             // duas variaveis do tipo int, diferenca esta na declaracao
             int idade = 25;
@@ -28,9 +27,11 @@ namespace Aulas.App1
             double valordois = 100.99;
             float valortrez = 100.99f;
 
-            //constante é dado atraves da palavra reservada const, nao permitindo reatribuir um novo valor posteriormente apos a criacao
-            const string descricao = "Curso Csharp"; 
+            //constante é definida atraves da palavra reservada const. nao permitindo reatribuir um novo valor posteriormente apos a criacao
+            const string descricao = "Curso Csharp";
 
+            //exemplo de reatribuicao de valor com a variavel flag do tipo primitivo char que foi declarado la no topo do algoritmo chamando a variavel conseguimos reatribuir valor
+            flag = 'b';
             
             Console.WriteLine(flag);
             Console.WriteLine(nome);
@@ -43,6 +44,7 @@ namespace Aulas.App1
             Console.WriteLine(valor);
             Console.WriteLine(valordois);
             Console.WriteLine( valortrez);
+
             Console.WriteLine(descricao);
             Console.ReadLine();
         }
