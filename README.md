@@ -11,7 +11,7 @@ C# é uma linguagem de programação orientada a objetos e orientada a component
 
 ## 📄 Requisitos 📄
 
-- Csharp 11 ;
+- C# 4+ ;
 - .Net;
 
 
