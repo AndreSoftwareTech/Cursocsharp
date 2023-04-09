@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiposdados.app", "Aulas.App1\tiposdados.app.csproj", "{B6465CE8-7446-43F1-953F-E0B09D1A341F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operadoresrelacionais.app", "operadoresrelacionais.app\operadoresrelacionais.app.csproj", "{11D00E43-9FA4-4C6A-8EE7-5CC1BA7C97B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operadoresaritimeticos.app", "ConsoleApp1\operadoresaritimeticos.app.csproj", "{A03FE20C-2E75-490C-8A77-E493215413CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operadoreslogicos", "operadoreslogicos\operadoreslogicos.csproj", "{22E3A460-9DD9-4D5E-A2FD-28F3E9DA6124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operadoresrelacionais.app", "operadoresrelacionais.app\operadoresrelacionais.app.csproj", "{11D00E43-9FA4-4C6A-8EE7-5CC1BA7C97B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operadorternario.app", "operadorternario.app\operadorternario.app.csproj", "{C64F2F50-12AD-4D5D-9B6A-C73A93404A32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operadoreslogicos", "operadoreslogicos\operadoreslogicos.csproj", "{22E3A460-9DD9-4D5E-A2FD-28F3E9DA6124}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operadorternario.app", "operadorternario.app\operadorternario.app.csproj", "{C64F2F50-12AD-4D5D-9B6A-C73A93404A32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiposdados.app", "tiposdados.app\tiposdados.app.csproj", "{FEB50558-490B-4C5C-93DB-3DEEEE81DEA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B6465CE8-7446-43F1-953F-E0B09D1A341F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6465CE8-7446-43F1-953F-E0B09D1A341F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6465CE8-7446-43F1-953F-E0B09D1A341F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6465CE8-7446-43F1-953F-E0B09D1A341F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A03FE20C-2E75-490C-8A77-E493215413CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A03FE20C-2E75-490C-8A77-E493215413CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A03FE20C-2E75-490C-8A77-E493215413CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A03FE20C-2E75-490C-8A77-E493215413CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11D00E43-9FA4-4C6A-8EE7-5CC1BA7C97B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11D00E43-9FA4-4C6A-8EE7-5CC1BA7C97B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11D00E43-9FA4-4C6A-8EE7-5CC1BA7C97B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +29,10 @@ Global
 		{C64F2F50-12AD-4D5D-9B6A-C73A93404A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C64F2F50-12AD-4D5D-9B6A-C73A93404A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C64F2F50-12AD-4D5D-9B6A-C73A93404A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB50558-490B-4C5C-93DB-3DEEEE81DEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB50558-490B-4C5C-93DB-3DEEEE81DEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB50558-490B-4C5C-93DB-3DEEEE81DEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB50558-490B-4C5C-93DB-3DEEEE81DEA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
