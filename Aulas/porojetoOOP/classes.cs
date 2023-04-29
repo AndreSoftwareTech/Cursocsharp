@@ -1,6 +1,6 @@
 ﻿namespace Cadastro
 {
-
+    // classe estatica
 
     public static class Calculos
     {
@@ -11,6 +11,7 @@
 
     }
 
+    // Classe normal
     public class Produto
     {
         private int id;
@@ -34,7 +35,7 @@
         { return id; }
     }
 
-
+    // Classe mae
     public class Pessoa 
     { 
         private int id { get; set; }
@@ -57,6 +58,8 @@
 
 
     }
+
+    //Classe filha (Pessoa) 
     public class PessoaFisica : Pessoa
     {
         public string CPF { get; set; }
@@ -68,18 +71,88 @@
 
         }
 
-        public class Funcionario : PessoaFisica 
+    
+
+    }
+
+
+    //Classe Filha (Pessoa Fisica) 
+    public class Funcionario : PessoaFisica
+    {
+        public string Nome { get; set; }
+
+        public void imprimirNome()
         {
-            public string Nome { get; set; }
+            Console.WriteLine("Nome " + Nome);
 
-            public void imprimirNome()
-            {
-                Console.WriteLine("Nome " + Nome);
-
-
-            }
 
         }
 
     }
+
+
+
+    //Classe Selada "Nao Permite heranca"
+    public sealed class Configuracao
+    {
+    public string Host { get; set;}
+
+        public void imprimirhost()
+        {
+            Console.WriteLine("Host" + Host);
+
+
+        }
+    }
+
+    //Classe Abstrata 
+    public abstract class Animal
+    {
+        public string Nome { get; set;}
+
+        public abstract string GetInformacoes();
+
+        public void imprimiranimal()
+        {
+            Console.WriteLine("Nome do Animal " + Nome);
+            Console.WriteLine("Informacoes " + GetInformacoes());
+        }
+
+    }
+
+    //classe abstrata da classe animal
+    public class Cachorro : Animal
+    {
+       
+        public override string GetInformacoes()
+        {
+            return "Cachorro e um bom amigo";
+        }
+    }
+
+
+    //Reord
+    public record Curso(int Id, string Descricao);
+
+
+    public interface INotificacao
+    {
+        string descricao { get; set; }
+
+        void Notificar();
+    }
+
+    public class NotificarCliente : INotificacao
+    {
+        public string descricao { get;  set; }
+        
+
+        public void Notificar()
+        {
+            Console.WriteLine("Notificando CLiente");
+        }
+    }
+    
 }
+
+    
